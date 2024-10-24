@@ -96,3 +96,28 @@ main {
     padding-left: 10%;
     padding-right: 10%;
 }
+
+.code-container {
+  width: 60%;
+  height: auto;  
+  background-color: #f7f7f7;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.code-container pre {
+  width: auto;
+  height: auto;  
+  font-family: monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.code-container code {
+  color: #333;
+}
