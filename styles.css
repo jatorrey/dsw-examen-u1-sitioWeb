@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 
 body {
-    font-family: 'Montserrat', Arial, sans-serif; /* Se establece Montserrat como la fuente principal */
+    font-family: 'Montserrat', Arial, sans-serif;
+    /* Se establece Montserrat como la fuente principal */
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -24,7 +25,8 @@ h2 {
     color: #FF8C00;
 }
 
-ul, ol {
+ul,
+ol {
     margin: 0;
     padding: 0 0 0 20px;
 }
@@ -48,7 +50,8 @@ footer {
     padding: 0 10px;
 }
 
-footer p, footer ul {
+footer p,
+footer ul {
     margin: 0;
     padding: 0;
 }
@@ -57,7 +60,8 @@ footer ul {
     list-style-type: none;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
 }
@@ -72,24 +76,35 @@ body {
 }
 
 a {
-    color: #333; /* Color de texto por defecto */
-    background-color: transparent; /* Color de fondo por defecto */
-    transition: background-color 0.3s; /* Transición para el color de fondo */
-    text-decoration: none; /* Quita subrayado de los enlaces */
-    padding: 5px; /* Añade un poco de espacio alrededor del texto del enlace */
+    color: #333;
+    /* Color de texto por defecto */
+    background-color: transparent;
+    /* Color de fondo por defecto */
+    transition: background-color 0.3s;
+    /* Transición para el color de fondo */
+    text-decoration: none;
+    /* Quita subrayado de los enlaces */
+    padding: 5px;
+    /* Añade un poco de espacio alrededor del texto del enlace */
 }
 
 a:hover {
-    background-color: #FF8C00; /* Cambia el color de fondo al pasar el cursor sobre el enlace */
-    color: white; /* Cambia el color del texto al pasar el cursor sobre el enlace */
+    background-color: #FF8C00;
+    /* Cambia el color de fondo al pasar el cursor sobre el enlace */
+    color: white;
+    /* Cambia el color del texto al pasar el cursor sobre el enlace */
 }
 
 /* Dentro de tu archivo styles.css */
 figcaption {
-    font-size: 0.8em; /* Tamaño de fuente más pequeño */
-    color: #666; /* Color de fuente menos saturado */
-    margin-top: 10px; /* Espacio superior */
-    text-align: left; /* Alineación centrada */
+    font-size: 0.8em;
+    /* Tamaño de fuente más pequeño */
+    color: #666;
+    /* Color de fuente menos saturado */
+    margin-top: 10px;
+    /* Espacio superior */
+    text-align: left;
+    /* Alineación centrada */
 }
 
 main {
@@ -97,27 +112,42 @@ main {
     padding-right: 10%;
 }
 
-.code-container {
-  width: 60%;
-  height: auto;  
-  background-color: #f7f7f7;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.console {
+    background-color: #2d2d2d;
+    border-radius: 5px;
+    padding: 10px;
+    width: fit-content;
 }
 
-.code-container pre {
-  width: auto;
-  height: auto;  
-  font-family: monospace;
-  font-size: 14px;
-  line-height: 1.5;
-  margin: 0;
-  padding: 0;
-  text-align: left;
+.blue {
+    color: #569cd6;
 }
 
-.code-container code {
-  color: #333;
+.white {
+    color: #d4d4d4;
+}
+
+.pink {
+    color: #c586c0;
+}
+
+.light-blue {
+    color: #9cdcfe;
+}
+
+.arrow {
+    color: #569cd6;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
 }
