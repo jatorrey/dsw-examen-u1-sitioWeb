@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+body {
+    font-family: 'Montserrat', Arial, sans-serif; /* Se establece Montserrat como la fuente principal */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #FF8C00;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #FF8C00;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: left;
+    padding: 1em 0;
+    margin-top: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 0 10px;
+}
+
+footer p, footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrapper {
+    flex: 1;
+}
+
+a {
+    color: #333; /* Color de texto por defecto */
+    background-color: transparent; /* Color de fondo por defecto */
+    transition: background-color 0.3s; /* Transición para el color de fondo */
+    text-decoration: none; /* Quita subrayado de los enlaces */
+    padding: 5px; /* Añade un poco de espacio alrededor del texto del enlace */
+}
+
+a:hover {
+    background-color: #FF8C00; /* Cambia el color de fondo al pasar el cursor sobre el enlace */
+    color: white; /* Cambia el color del texto al pasar el cursor sobre el enlace */
+}
+
+/* Dentro de tu archivo styles.css */
+figcaption {
+    font-size: 0.8em; /* Tamaño de fuente más pequeño */
+    color: #666; /* Color de fuente menos saturado */
+    margin-top: 10px; /* Espacio superior */
+    text-align: left; /* Alineación centrada */
+}
+
+main {
+    padding-left: 10%;
+    padding-right: 10%;
+}
